@@ -1,0 +1,171 @@
+/* Reset some default styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background color */
+  color: #fff;
+  margin: 0;
+}
+
+/* Section styles */
+.task-management {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background10.jpg'); /* Add a stunning background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  padding: 20px;
+  border: 5px solid #333;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add a subtle shadow effect */
+}
+
+.left-section {
+  flex: 3;
+  margin-right: 10px;
+}
+
+/* Header styles */
+h1 {
+  color: #FFA500; /* Orange */
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 28px;
+  color: #FFA500; /* Orange */
+  margin: 20px 0;
+}
+
+/* Task list styles */
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #333;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent dark background */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+.task-list li:hover {
+  border: 5px solid #FFA500; /* Orange border on hover */
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+.task-info h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #FFA500; /* Orange */
+}
+
+.task-due-date, .task-assigne {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+/* Form styles */
+.create-task input,
+.create-task select,
+.create-task textarea {
+  padding: 10px;
+  border: 1px solid #d6d4d4;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #FFA500; /* Orange border */
+  width: 98%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  color: #fff;
+}
+
+.create-task textarea {
+  height: 100px;
+}
+
+.create-task input[type="submit"],
+.create-task input[type="reset"] {
+  padding: 12px 24px;
+  background-color: #FFA500; /* Orange */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-task input[type="submit"]:hover,
+.create-task input[type="reset"]:hover {
+  background-color: #FF8C00; /* Darker orange on hover */
+}
+
+/* Chat styles */
+.chat-messages {
+  height: 400px;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  margin-bottom: 15px;
+  padding: 15px;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Add a subtle shadow effect */
+}
+
+/* Chat input styles */
+.chat-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#writerName, #chatMessage {
+  padding: 10px;
+  border: 1px solid #FFA500; /* Orange border */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  color: #fff;
+  border-radius: 5px;
+}
+
+#chatMessage {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#sendButton, #clearChatButton {
+  padding: 12px 24px;
+  background-color: #FFA500; /* Orange */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#sendButton:hover, #clearChatButton:hover {
+  background-color: #FF8C00; /* Darker orange on hover */
+}
