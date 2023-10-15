@@ -1,24 +1,21 @@
-# Project Management Tool with Social Media Features
 
-A web application that combines project management functionalities with social media features. It allows users to communicate with each other and assign tasks within a collaborative environment.
+![Screenshot 2023-10-15 150941](https://github.com/teja2305/Project-Management-Tool/assets/124275122/133ade71-4f14-4b28-81ed-058f80e3d7dc)
 
-![Screenshot](https://github.com/IIKirito-kunII/Bharat-Intern/blob/dc483bff7b450f37acb16e8238d66a310bb7ba58/%5B%20Project%20Management%20Tool%20%5D/Screenshot%20from%202023-08-30%2000-21-04.png)
+![Screenshot 2023-10-15 151019](https://github.com/teja2305/Project-Management-Tool/assets/124275122/62f78043-9f48-4a61-bb8e-b2875ec135f5)
 
-## Features
 
-- Task Assignment: Users can assign tasks to others and track their progress.
-- Task Management: Users can create, edit, and mark tasks as completed.
-- Chat Functionality: Users can communicate through a chat system.
-- My Tasks: Users can view tasks assigned to them.
-- Assigned Tasks: Users can see tasks they've assigned to others.
-- Completed Tasks: Users can view completed tasks.
+##Key Features:
 
-## Contributing
+Task Management: Create tasks with details such as task name, assigned person, due date, and description.
+Task Assignment: Assign tasks to team members with a due date and detailed information.
+Chat Functionality: A built-in chat system for team communication, including a clear chat option.
+Comment Section: Add comments to each task to enhance collaboration.
+GitHub Integration: Link tasks to GitHub repositories for tracking code changes.
+Responsive Design: The tool is responsive and works well on various devices.
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+##How to Use:
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Submit a pull request.
+Clone the repository.
+Open the index.html file in your web browser.
+Start managing your projects efficiently!
+This Project Management Tool is ideal for small to medium-sized teams looking for a simple and effective way to track and manage tasks. It offers an intuitive user experience and fosters collaboration among team members.
